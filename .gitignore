@@ -1,0 +1,14 @@
+# Personal data -- never commit real name/contact info or generated logs
+data/profile.json
+data/applied.json
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Playwright / OS cruft
+.DS_Store
+Thumbs.db
